@@ -1,19 +1,16 @@
 {
-  "name": "nodetemplate",
-  "version": "1.0.0",
-  "description": "template for node exercises",
-  "main": "main.js",
-  "scripts": {
-    "start": "nodemon main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/j-West/nodeTemplate.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/j-West/nodeTemplate/issues"
-  },
-  "homepage": "https://github.com/j-West/nodeTemplate#readme"
+  "name": "in-class-mongoose",
+"version": "0.0.0",
+"scripts": {
+  "start": "nodemon app.js",
+  "lint": "standard --verbose | snazzy || true"
+},
+"engines": {
+  "node": "7.4.0"
+},
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.7"
+  }
 }
